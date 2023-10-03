@@ -130,7 +130,7 @@ export const AddAsset = ({ onClose }: { onClose: () => void }) => {
             setAssetCode(e.target.value);
           }}
           value={assetCode}
-          placeholder="ex: USDC, EURT, NGNT"
+          placeholder="ex: AFRO, USDC, EURT, NGNT"
         />
 
         <Input

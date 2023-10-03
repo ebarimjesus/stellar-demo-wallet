@@ -55,7 +55,7 @@ export const Landing = () => {
             disabled={isPending}
             underline
           >
-            Provide a secret key (testnet only)
+            Provide a secret key.
           </TextLink>
 
           <div className="Layout__inline">
@@ -65,7 +65,7 @@ export const Landing = () => {
               disabled={isPending}
               underline
             >
-              Generate keypair for new account (testnet only)
+              Generate keypair for new account.
             </TextLink>
 
             {!isConnectAccountModalVisible && isPending && <Loader />}

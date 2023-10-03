@@ -2,15 +2,23 @@ import { presetAsset } from "../types/types";
 
 export const PRESET_ASSETS: presetAsset[] = [
   {
-    assetCode: "USDC",
-    issuerPublicKey: "GBBD47IF6LWK7P7MDEVSCWR7DPUWV3NY3DTQEVFL4NAT4AQH3ZLLFLA5",
+    assetCode: "AFRO",
+    issuerPublicKey: "GBUYO263AYAZZKZI5ZCZFCPIGC42JVCGAOIP2CBBCUP2UTCEUIPIE2VV",
   },
   {
-    assetCode: "SRT",
-    homeDomain: "testanchor.stellar.org",
+    assetCode: "CNB",
+    homeDomain: "zingypay.com",
   },
   {
-    assetCode: "MYASSET",
-    homeDomain: "sep8-server.dev.stellar.org",
+    assetCode: "LIFE",
+    homeDomain: "zingypay.com",
+  },
+  {
+    assetCode: "NATURE",
+    issuerPublicKey: "GBUYO263AYAZZKZI5ZCZFCPIGC42JVCGAOIP2CBBCUP2UTCEUIPIE2VV",
+  },
+  {
+    assetCode: "OSO",
+    homeDomain: "zingypay.com",
   },
 ];
